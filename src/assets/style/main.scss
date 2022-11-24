@@ -1,0 +1,64 @@
+@import "variables";
+
+.login-form{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.form-inner{
+  display: block;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+
+
+  h2 {
+    color: #888;
+    font-size: 28px;
+    font-weight: 500;
+    Margin-bottom: 15px;
+  }
+
+  p{
+    color: red;
+    font-size: 18px;
+    margin: 15px 0;
+  }
+
+  .form-group {
+    display: block;
+    width: 300px;
+    margin-bottom: 15px;
+  }
+
+  .form-group input{
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #d3cccc;
+  border-radius: 8px;
+  }
+  button{
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #d3cccc;
+  }
+}
+.p-text{
+  position: relative;
+  width: 340px;
+  min-height: 175px;
+  padding: 20px;
+  text-align: center ;
+  height: fit-content;
+  p{
+    width: 100%;
+    text-overflow: clip;
+  }
+
+}
